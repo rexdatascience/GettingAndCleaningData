@@ -1,6 +1,6 @@
 # Getting And Cleaning Data Course Project
 
-This repository contains the script `run_analysis.R` for performing the analysis required for the course project, the code book `CodeBook.md` that describes the variables in the output data set.
+This repository contains the script `run_analysis.R` for performing the analysis required for the course project, the code book `CodeBook.md` that describes the variables in the output data set and the output file containing the tidy data set `tidy_data.txt`.
 
 `run_analysis.R` does the following:
 1. Merges the training and the test sets to create one data set.
