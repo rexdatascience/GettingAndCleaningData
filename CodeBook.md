@@ -29,6 +29,7 @@ Activity_ID | Activity
 The columns of the dataset were labelled with descriptive variable. Time domain signals were prefixed with `Time-domain` and frequency domain signals which calculated using Fast Fourier Transform (FFT) on the measurements were prefixed with `Freq-domain`. Mean and standard deviation values were denoted with `Mean` and `StdDev` in their column names respectively. `X`, `Y` and `Z` denote measurements made in the X-axis, Y-axis and Z-axis respectively.
 
 The following 68 column names were defined in the data set:
+
 1. Subject                                       
 2. Time-domain-BodyAcc-Mean-X                    
 3. Time-domain-BodyAcc-Mean-Y                    
@@ -98,9 +99,12 @@ The following 68 column names were defined in the data set:
 67. Frequency-domain-BodyGyroJerk-Magnitude-StdDev
 68. Activity       
 
-###A second, independent tidy data set with the average of each variable for each activity and each subject is required to be created. The data set is written to the text file `tidy_data.txt` in this course project. The original data frame was melt and cast using `Subject` and `Activity` as the fixed variable and averaging the rest of the variables. The `Avg-for` was prefixed to each of the variables. 
+###Creating a second, independent tidy data set
+A second, independent tidy data set with the average of each variable for each activity and each subject is required to be created. 
+The data set is written to the text file `tidy_data.txt` in this course project. The original data frame was melt and cast using `Subject` and `Activity` as the fixed variable and averaging the rest of the variables. The `Avg-for` was prefixed to each of the variables. 
 
 The following are the 68 variables in the tidy data set:
+
 1. Subject      
 2. Activity                                 
 3. Avg-for-Time-domain-BodyAcc-Mean-X                    
@@ -164,10 +168,10 @@ The following are the 68 variables in the tidy data set:
 61. Avg-for-Frequency-domain-BodyAcc-Magnitude-Mean       
 62. Avg-for-Frequency-domain-BodyAcc-Magnitude-StdDev     
 63. Avg-for-Frequency-domain-BodyAccJerk-Magnitude-Mean   
-64. Avg-for-Frequency-domain-BodyAccJerk-Magnitude-StdDev 
+64. Avg-for-Frequency-domain-BodyAccJerk-Magnitude-StdDev
 65. Avg-for-Frequency-domain-BodyGyro-Magnitude-Mean      
 66. Avg-for-Frequency-domain-BodyGyro-Magnitude-StdDev    
-67. Avg-for-Frequency-domain-BodyGyroJerk-Magnitude-Mean  
+67. Avg-for-Frequency-domain-BodyGyroJerk-Magnitude-Mean
 68. Avg-for-Frequency-domain-BodyGyroJerk-Magnitude-StdDev
 
 
