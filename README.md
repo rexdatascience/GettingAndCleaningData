@@ -21,6 +21,6 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## Running the script 
 1. Download the zipped file from the above link and unzipped the file.
 2. The zipped file contains a folder "UCI HAR Dataset". This folder contains two sub-folders "train" and "test".
-3. The script `run_analysis.R` has to be placed in the "UCI HAR Dataset".
+3. The script `run_analysis.R` has to be placed in the "UCI HAR Dataset" folder.
 4. Set the working directory to the "UCI HAR Dataset" folder.
 5. The script can be executed by running `source("run_analysis.R")`. The file `tidy_data.txt` containing the tidy data set will be created in the folder. 
