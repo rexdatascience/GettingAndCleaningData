@@ -30,7 +30,7 @@ The columns of the dataset were labelled with descriptive variable. Time domain 
 
 The following 68 column names were defined in the data set:
 
-1. Subject                                       
+1. Subject: Possible values are the integer 1 to 30 representing the subject                                      
 2. Time-domain-BodyAcc-Mean-X                    
 3. Time-domain-BodyAcc-Mean-Y                    
 4. Time-domain-BodyAcc-Mean-Z                    
@@ -97,7 +97,7 @@ The following 68 column names were defined in the data set:
 65. Frequency-domain-BodyGyro-Magnitude-StdDev    
 66. Frequency-domain-BodyGyroJerk-Magnitude-Mean  
 67. Frequency-domain-BodyGyroJerk-Magnitude-StdDev
-68. Activity       
+68. Activity: : Possible values are the 6 activities             
 
 ###Creating a second, independent tidy data set
 A second, independent tidy data set with the average of each variable for each activity and each subject is required to be created. 
@@ -105,8 +105,8 @@ The data set is written to the text file `tidy_data.txt` in this course project.
 
 The following are the 68 variables in the tidy data set:
 
-1. Subject      
-2. Activity                                 
+1. Subject: Possible values are the integer 1 to 30 representing the subject        
+2. Activity: Possible values are the 6 activities                                 
 3. Avg-for-Time-domain-BodyAcc-Mean-X                    
 4. Avg-for-Time-domain-BodyAcc-Mean-Y                    
 5. Avg-for-Time-domain-BodyAcc-Mean-Z                    
